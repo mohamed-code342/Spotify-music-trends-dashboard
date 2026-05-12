@@ -134,15 +134,6 @@ http://127.0.0.1:8050
 ### Trend & Engagement Analysis
 ![Dashboard 6](Screenshots/6.png)
 
-
-## Future Improvements
-
-- Add a `requirements.txt` or `pyproject.toml` for environment reproducibility
-- Introduce dataset validation and preprocessing automation on startup
-- Add deployment configuration for Heroku, Vercel, or Azure App Service
-- Enable dynamic top-N controls for chart customization
-- Add user annotations, chart download/export, and mobile layout refinements
-
 ## Notes
 
 The app uses a hardcoded `TOP_N = 10` for genre and artist ranking charts. The dataset is expected to include audio features such as `danceability`, `energy`, `tempo`, `valence`, and `explicit_label`, plus computed fields like `engagement_score` and `popularity_level`.
